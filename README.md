@@ -16,3 +16,14 @@
 | 백준 | 반복문 | [구구단](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EA%B5%AC%EA%B5%AC%EB%8B%A8.js) |
 | 백준 | 반복문 | [별찍기-1](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EB%B3%84%EC%B0%8D%EA%B8%B0-1.js) |
 | 백준 | 반복문 | [합](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%ED%95%A9.js) |
+| ----------------- | ----------------- | ----------------- |
+| 백준 | 배열 | [나머지](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EB%82%98%EB%A8%B8%EC%A7%80.js) |
+| 백준 | 배열 | [최댓값](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EC%B5%9C%EB%8C%93%EA%B0%92.js) |
+| 백준 | 배열 | [최소 최대](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EC%B5%9C%EC%86%8C_%EC%B5%9C%EB%8C%80.js) |
+| 백준 | 배열 | [평균](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%ED%8F%89%EA%B7%A0.js) |
+| 백준 | 배열 | [평균은 넘겠지](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%ED%8F%89%EA%B7%A0%EC%9D%80_%EB%84%98%EA%B2%A0%EC%A7%80.js) |
+| ----------------- | ----------------- | ----------------- |
+| 백준 | 문자열 | [단어의 개수](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EB%8B%A8%EC%96%B4%EC%9D%98_%EA%B0%9C%EC%88%98.js) |
+| 백준 | 문자열 | [문자열 반복](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EB%AC%B8%EC%9E%90%EC%97%B4_%EB%B0%98%EB%B3%B5.js) |
+| 백준 | 문자열 | [상수](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EC%83%81%EC%88%98.js) |
+| 백준 | 문자열 | [숫자의 합](https://github.com/Kiminwoo/algorithmTour/blob/main/baekjoon/%EC%88%AB%EC%9E%90%EC%9D%98_%ED%95%A9.js) |
