@@ -17,7 +17,7 @@ PLATFORMS = ["baekjoon"]
 # git 활용
 GIT_REPO = Repo.init("")
 GIT_BRANCH = GIT_REPO.active_branch
-GIT_BASE_DIR = f"https://github.com/Kiminwoo/autoReadMe/blob/{GIT_REPO.head.commit}"
+GIT_BASE_DIR = f"https://github.com/Kiminwoo/algorithmTour/blob/{GIT_REPO.head.commit}"
 
 class FileInfo:
     def __init__(self, path: str, platform: str, dt: str, difficulty: str, *title: List[str]):
