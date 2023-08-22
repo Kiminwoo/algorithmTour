@@ -1,6 +1,3 @@
-### :airplane: 알고리즘 투어
-- [Baekjoon](https://www.acmicpc.net)
----
 ## :white_check_mark: Baekjoon 문제
 | \# | 날짜 | 문제 | 풀이 | 문제 유형 | 난이도|
 | :----: | :----: |:------: | :-----: | :-----------------: | :---: |
@@ -44,4 +41,3 @@
 |3|2023-08-07|[별 찍기 - 1](https://www.acmicpc.net/problem/2438)|[참조](https://github.com/Kiminwoo/autoReadMe/blob/ff8bb2f3cadd964e4a2e7c18af473518a5f615d1/baekjoon/반복문/별찍기-1_2438.js)|구현|![티어](/automatic-readme/src/1.svg)|
 |2|2023-08-07|[구구단](https://www.acmicpc.net/problem/2739)|[참조](https://github.com/Kiminwoo/autoReadMe/blob/ff8bb2f3cadd964e4a2e7c18af473518a5f615d1/baekjoon/반복문/구구단_2739.js)|구현<br>수학|![티어](/automatic-readme/src/1.svg)|
 |1|2023-08-07|[A+B](https://www.acmicpc.net/problem/1000)|[참조](https://github.com/Kiminwoo/autoReadMe/blob/ff8bb2f3cadd964e4a2e7c18af473518a5f615d1/baekjoon/반복문/A+B_1000.js)|구현<br>수학<br>사칙연산|![티어](/automatic-readme/src/1.svg)|
----
