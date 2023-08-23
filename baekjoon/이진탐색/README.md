@@ -124,3 +124,109 @@ if(result == -1){
 
 ```
 
+<hr>
+
+# 정렬된 배열에서 특정 원소의 개수 구하기
+
+- lowerBound(arr,x) : 정렬된 순서를 유지하면 배열 arr에 x를 넣을 가장 왼쪽 인덱스를 반환
+- upperBound(arr,x) : 정렬된 순서를 유지하면서 배열 arr에 x를 넣을 가장 오른쪽 인덱스를 반환
+
+![하한선과_상한선_함수](https://github.com/Kiminwoo/algorithmTour/assets/33905149/506ad5af-8a11-49ea-905d-4fa80f42d66b)
+
+
+### 하한선 함수
+
+```js
+
+/**
+ * 하한선 함수 구현 ( 반복분 ) 
+ * @param {array} arr - 정렬이 된 배열 
+ * @param {number} target - 찾고자 하는 값
+ * @param {number} start - 시작 위치 주소 
+ * @param {number} end - 끝 위치 주소
+ */
+function lowerBound(arr, target, start, end){
+
+    // 정렬된 순서를 유지하면서 배열에 삽입할 가장 왼쪽 인덱스 반환
+    while(start < end){
+        let mid = parseInt((start+end)/2);
+        if(arr[mid] >= target){
+            
+            // 최대한 왼쪽으로 이동
+            end = mid;
+
+        } else {
+            start = mid + 1;
+        }
+    }
+
+    return end;
+}
+
+
+
+```
+
+
+### 상한선 함수
+
+```js
+
+/**
+ * 상한선 함수 구현 ( 반복분 ) 
+ * @param {array} arr - 정렬이 된 배열 
+ * @param {number} target - 찾고자 하는 값
+ * @param {number} start - 시작 위치 주소 
+ * @param {number} end - 끝 위치 주소
+ */
+function upperBound(arr, target, start, end){
+
+    // 정렬된 순서를 유지하면서 배열에 삽입할 가장 오른쪽 인덱스 반환
+    while(start < end){
+        let mid = parseInt((start+end)/2);
+        if(arr[mid] > target){
+
+            end = mid;
+
+        } else {
+            // 최대한 오른쪽으로 이동
+            start = mid + 1;
+        }
+    }
+
+    return end;
+}
+
+
+
+```
+
+
+### countByRange() : 정렬된 배열에서 값이 특정 범위에 속하는 원소의 개수를 계산하는 함수
+
+```js
+
+/**
+ * 정렬된 배열에서 값이 특정 범위에 속하는 원소의 개수를 계산하는 함수 ( lowerBound 함수 + uppperBound 함수 ) 
+ * @param {array} arr - 정렬이 된 배열 
+ * @param {number} target - 찾고자 하는 값
+ * @param {number} start - 시작 위치 주소 
+ * @param {number} end - 끝 위치 주소
+ */
+function countByRange(arr, leftValue, rightValue){
+
+    let rightIndex = upperBound(arr, rightValue, 0, arr.length);
+    let leftIndex = lowerBound(arr, leftValue, 0, arr.length);
+    return rightIndex - leftIndex;
+}
+
+// 배열 선언
+let arr = [1,2,3,3,3,3,4,4,8,9];
+
+// 값이 4인 데이터 개수 출력
+console.log(countByRange(arr, 4,4));
+
+// 값이 [-1,3] 범위에 있는 데이터 개수 출력
+console.log(countByRange(arr,-1,3));
+
+```
