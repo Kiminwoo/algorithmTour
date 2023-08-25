@@ -230,3 +230,18 @@ console.log(countByRange(arr, 4,4));
 console.log(countByRange(arr,-1,3));
 
 ```
+
+<hr>
+
+# 파라메트릭 서치 ( parametric search ) 란 ? 
+
+- **최적화 문제를 결정 문제('예' 혹은 '아니요')로 바꾸어 해결하는 기법** 이다.
+- ex ) 특정한 조건을 만족하는 가장 알맞은 값을 빠르게 찾는 최적화 문제
+
+- 이진 탐색 조건 : 변경할(최적화할) 값 x에 대하여 f(x)가 단조 증가 혹은 단조 감소
+- 단조 증가 함수 : x <= y 이면 f(x) <= f(y) 인 경우
+- 일반적으로 조건 ( constraint ) 은 f(x)에 대하여 정의된다.
+
+![파라메트릭_서치_함수](https://github.com/Kiminwoo/algorithmTour/assets/33905149/87eccdb8-0e16-4bed-b933-b4d3ffa42ea2)
+
+  
